@@ -105,7 +105,7 @@ function checkWinConditions(){
    //9 squares are selected the code executes.
    else if(selectedSquares.length >=9){
     //This function plays the tie game sound.
-    Audio('./media/tie.mp3');
+    audio('./media/tie.mp3');
     //This function sets a.3 second timer before the reset Game is called.
     setTimeout(function() {resetGame(); },500);
    }
